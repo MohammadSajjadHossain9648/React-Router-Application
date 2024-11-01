@@ -11,7 +11,7 @@ const User = ({user}) => {
             <p>Email: {email}</p>
             <p>Phone: {phone}</p>
             <Link to={`${id}`}>
-                <button>Show Website</button>
+                <button>Show User Website</button>
             </Link>
         </div>
     );
