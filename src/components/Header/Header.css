@@ -1,0 +1,14 @@
+.header{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header_title{
+    color: #1A1A19;
+}
+/*nav a = nav Link */
+.header nav a{
+    margin-right: 30px;
+    text-decoration: none;
+}
