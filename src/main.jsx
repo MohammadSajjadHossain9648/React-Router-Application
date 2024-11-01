@@ -6,11 +6,20 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './components/Home/Home';
+import About from './components/About/About';
 
 const router = createBrowserRouter([
   {
+    //single router
     path: "/",
-    element: <Home></Home>
+    element: <Home></Home>,
+    //nested router
+    children: [
+      {
+        path: "/about",
+        element: <About></About>,
+      }
+    ],
   },
 ]);
 
