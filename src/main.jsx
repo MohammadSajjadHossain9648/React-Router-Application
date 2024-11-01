@@ -12,10 +12,10 @@ import Users from './components/Users/Users';
 
 const router = createBrowserRouter([
   {
-    //single router
+    //single router or parent router
     path: "/",
     element: <Home></Home>,
-    //nested router
+    //nested router or child router
     children: [
       {
         path: "/about",
