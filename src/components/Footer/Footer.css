@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(133, 159, 61);
+}
+
+.footer .footer_title{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
