@@ -1,0 +1,12 @@
+.post_detail{
+    background-color: greenyellow;
+    color: seagreen;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+.post_detail h3{
+    color: black;
+}
+.post_detail p{
+    color: grey;
+}
