@@ -8,7 +8,7 @@ const Users = () => {
     return (
         <div>
             <h1>Users: {users.length}</h1>
-            <div className="users_card">
+            <div className="users_container">
                 {
                     users.map(user => <User key={user.id} user={user}></User>)
                 }
