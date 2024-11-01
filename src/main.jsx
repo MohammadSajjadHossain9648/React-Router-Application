@@ -35,12 +35,12 @@ const router = createBrowserRouter([
         element: <UserDetail></UserDetail>
       },
       {
-        path: "/posts",
+        path: "/posts", // fixed router
         loader: () => fetch("https://jsonplaceholder.typicode.com/posts"),
         element: <Posts></Posts>
       },
       {
-        path: '/posts/:postId',
+        path: '/posts/:postId', // dynamic router using colon(:)
         loader: ({params}) => fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`),
         element: <PostDetail></PostDetail>
       },
