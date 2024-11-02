@@ -12,12 +12,14 @@ import Users from './components/Users/Users';
 import UserDetail from './components/UserDetail/UserDetail';
 import Posts from './components/Posts/Posts';
 import PostDetail from './components/PostDetail/PostDetail';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     //single router or parent router
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage></ErrorPage>,
     //nested router or child router
     children: [
       {

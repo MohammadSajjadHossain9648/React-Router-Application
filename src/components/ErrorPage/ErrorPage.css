@@ -1,0 +1,8 @@
+#error-page{
+    margin-top: 15%;
+    text-align: center;
+}
+
+#error-page p, h3{
+    color: red;
+}
