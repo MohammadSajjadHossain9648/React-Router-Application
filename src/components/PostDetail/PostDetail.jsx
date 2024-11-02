@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import './PostDetail.css'
 import { useLoaderData, useNavigate } from 'react-router-dom';
 
@@ -20,10 +19,6 @@ const PostDetail = () => {
             <button onClick={handleToGoBack}>Go Back</button>
         </div>
     );
-};
-
-PostDetail.propTypes = {
-
 };
 
 export default PostDetail;

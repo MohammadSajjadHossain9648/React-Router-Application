@@ -14,4 +14,5 @@
 }
 .header nav a.active{
     color: red;
+    font-weight: 800;
 }

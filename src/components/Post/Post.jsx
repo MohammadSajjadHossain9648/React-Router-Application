@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import './Post.css'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Post = ({post}) => {
     const {id, title} = post;
